@@ -1,1 +1,2 @@
-# catvsdog_weights
+In this assignment we trained and evaluated a CNN architecture similar to YOLO on the Dog and Cat detection dataset (https://www.kaggle.com/datasets/andrewmvd/dog-and-cat-detection/data), using Pytorch. 
+Techniques we used: early stopping, learning rate scheduling, pretraining, saving and transfering weights and data augmentation. We use YOLO's loss function and plot its five different components over the training epochs. In evaluation we compute the model's confusion matrix. 
